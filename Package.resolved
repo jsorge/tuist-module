@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ProjectDescription",
+        "repositoryURL": "https://github.com/tuist/ProjectDescription",
+        "state": {
+          "branch": null,
+          "revision": "161f5d8b4d1927acd0e0b6c091fb4371882aa295",
+          "version": "3.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
