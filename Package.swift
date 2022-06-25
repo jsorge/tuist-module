@@ -20,7 +20,8 @@ let package = Package(
             name: "TuistModule",
             dependencies: [
                 "ProjectDescription"
-            ]
+            ],
+            path: "ProjectDescriptionHelpers"
         ),
         .testTarget(
             name: "TuistModuleTests",

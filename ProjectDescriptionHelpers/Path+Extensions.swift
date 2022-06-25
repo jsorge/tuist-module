@@ -106,6 +106,8 @@ extension Path {
             return .relativeToManifest(newPath)
         case .relativeToRoot:
             return .relativeToRoot(newPath)
+        @unknown default:
+            return Path(newPath)
         }
     }
 }

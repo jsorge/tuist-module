@@ -8,7 +8,7 @@ public struct Module: Hashable {
     /// Configuration options used when generating the module's main target
     let config: Config
 
-    init(name: ModuleName, config: Config = Config()) {
+    public init(name: ModuleName, config: Config = Config()) {
         self.name = name
         self.config = config
     }
